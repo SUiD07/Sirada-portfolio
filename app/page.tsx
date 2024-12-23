@@ -1,22 +1,25 @@
 import Navbar from "@/components/Navbar";
+import Homepage from "@/components/Homepage";
 import Image from "next/image";
+import Work from "@/components/Work";
+import Experience from "@/components/Experience";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <section id="#home" className="text-9xl my-5 max-md:text-7xl">
-        Sirada <br/>
-        Uthaiwat
+      <Navbar />
+      <section id="#home">
+        <Homepage/>
       </section>
       <section id="#work">
-
+        <Work/>
       </section>
       <section id="#experience">
-
+        <Experience/>
       </section>
       <section id="#contact">
-
+        <Contact/>
       </section>
     </>
   );
