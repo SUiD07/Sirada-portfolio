@@ -10,17 +10,19 @@ export default function Home() {
     <>
       <Navbar />
       <section id="#home">
-        <Homepage/>
+        <Homepage />
       </section>
-      <section id="#work">
-        <Work/>
-      </section>
-      <section id="#experience">
-        <Experience/>
-      </section>
-      <section id="#contact">
-        <Contact/>
-      </section>
+      <div className=" mx-10">
+        <section id="#work">
+          <Work />
+        </section>
+        <section id="#experience">
+          <Experience />
+        </section>
+        <section id="#contact">
+          <Contact />
+        </section>
+      </div>
     </>
   );
 }
