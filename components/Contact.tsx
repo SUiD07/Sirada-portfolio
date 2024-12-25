@@ -5,8 +5,8 @@ import github from "/public/github.svg";
 export default function Contact() {
   return (
     <>
-      <div className="text-xl">
-        <HeadSec header="Contact" />
+      <HeadSec header="Contact" />
+      <div className="my-4">
         <div className="flex">
           <Image src={email} alt="email" width={20} height={20} />
           E-mail: sirada.uth@docchula.com

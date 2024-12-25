@@ -11,7 +11,7 @@ export default function Navbar() {
             <>
               <div
                 key={index}
-                className="hover:text-xl max-md:text-sm mx-1 text-white"
+                className="hover:text-xl max-md:text-sm mx-4 text-white"
               >
                 <a href={item.id}>{item.sec}</a>
               </div>
