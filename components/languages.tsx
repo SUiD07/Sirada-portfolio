@@ -5,13 +5,15 @@ export default function Lang() {
   return (
     <>
       <HeadSec header="Languages and Frameworks" />
-      <div className="font-bold">Languages</div>
+      <div className="my-3 font-bold text-xl">Languages</div>
       {langList.map((langItem,langIndex)=>(
-        <div key={langIndex}className="shadow-md w-32 h-10 text-center justify-center">{langItem.name}</div>
+        <li>{langItem.name}</li>
+        // <div key={langIndex}className="font-semibold shadow-md w-32 text-center justify-center inline-block">{langItem.name}</div>
       ))}
-      <div className="font-bold">Frameworks</div>
+      <div className="my-3 font-bold text-xl">Frameworks</div>
       {FramewList.map((framewItem,framewIndex)=>(
-        <div className="shadow-md w-32 h-10 text-center inline-block">{framewItem.name}</div>
+        <li>{framewItem.name}</li>
+        // <div key={framewIndex}className="font-semibold shadow-md w-32 text-center inline-block inline-block">{framewItem.name}</div>
       ))}
     </>
   );
