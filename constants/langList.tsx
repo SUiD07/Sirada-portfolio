@@ -7,4 +7,6 @@ export const langList=[
 ]
 export const FramewList=[
     {name:"NextJS"},
+    {name:"TailwindCSS"},
+
 ]

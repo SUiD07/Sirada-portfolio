@@ -9,7 +9,7 @@ export default function Contact() {
       <div className="my-4">
         <div className="flex">
           <Image src={email} alt="email" width={20} height={20} />
-          E-mail: sirada.uth@docchula.com
+          E-Mail: sirada.uth@docchula.com
         </div>
         <div className="flex">
           <Image src={email} alt="email" width={20} height={20} />
