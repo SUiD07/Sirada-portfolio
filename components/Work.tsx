@@ -10,7 +10,7 @@ export default function Work() {
       <HeadSec header="Work" />
       <div className="inline-block">
         <div className="py-3">
-          See my GitHub profile here
+          My GitHub profile
         </div>
         <a
           href="https://github.com/SUiD07"

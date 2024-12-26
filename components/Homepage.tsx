@@ -9,7 +9,7 @@ export default function Homepage() {
         Mouse over this element and <br/>see what happen!
       </div>
       <div className="mx-3">
-        <p>Found this website's source code in GitHub</p>
+        <p>Website's source code in GitHub</p>
         <br />
         <a
           href="https://github.com/SUiD07"
