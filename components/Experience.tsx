@@ -1,4 +1,5 @@
 import HeadSec from "./HeadSec";
+import { activitiesList } from "@/constants/activities";
 export default function Experience() {
   return (
     <>
@@ -12,6 +13,15 @@ export default function Experience() {
 
       {/* <li>Support team IT 34thSyringe Games </li>
       <li>ผู้ดูแล website AMSci</li> */}
+      <div className="font-semibold text-xl">Activities</div>
+      {activitiesList.map((item, index) => (
+        <>
+          <li>
+            {item.position} {item.detail}
+            {item.note && <> : {item.note}</>}
+          </li>
+        </>
+      ))}
     </>
   );
 }

@@ -11,7 +11,7 @@ export default function Work() {
     <>
       <HeadSec header="Work" />
       <div className="overflow-x-auto flex">
-        <div className="shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">
+        <div className="hover:border-black mx-5 shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">
           <div className="inline-block">
             <div className="py-3 font-bold">My GitHub profile</div>
             <a
@@ -28,7 +28,7 @@ export default function Work() {
           />
         </div>
 
-        <div className="shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">        <div className="inline-block">
+        <div className="hover:border-black mx-5 shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">        <div className="inline-block">
             <div className="py-3 font-bold">My Portfolio's source code</div>
             <a
               href="https://github.com/SUiD07/Sirada-portfolio"
@@ -43,8 +43,11 @@ export default function Work() {
             className="my-2 inline-block h-auto w-auto"
           />
         </div>
-        <div className="shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">
-            <div className="py-3 font-bold">My Portfolio's source code</div>
+        <div className="hover:border-black mx-5 shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">
+            <div className="py-3 font-bold text-5xl animate-bounce">Coming soon</div>
+        </div>
+        <div className="hover:border-black mx-5 shadow-md p-5 border-2 border-gray-200 rounded-md w-96 min-w-96 inline-block">
+            <div className="py-3 font-bold text-5xl animate-bounce">Coming soon</div>
         </div>
       </div>
       {/* <div className="text-xl font-bold">My work as a front-end developer</div>
