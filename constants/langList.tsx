@@ -10,3 +10,8 @@ export const FramewList=[
     {name:"TailwindCSS"},
 
 ]
+
+export const toolsList=[
+    {name:"Visual Studio Code"},
+    {name:"Git"}
+]

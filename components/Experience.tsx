@@ -5,11 +5,12 @@ export default function Experience() {
     <>
       <HeadSec header="Experience" />
       <div className="font-semibold text-xl">Education</div>
-      <li>Triamudomsuksa School</li>
+      <li>Triamudomsuksa School </li>
       <li>Faculty of Medicine, Chulalongkorn University</li>
       {/* <div className="font-semibold text-xl">Past activities</div> */}
-      <li>POSN Computer 2 @Samsenwitthayalai School</li>
-      <li>POSN Biology 2 @Satriwitthaya School</li>
+      <div className="font-semibold text-xl">Certificates</div>
+      <li>POSN Computer 2nd Camp (2021)</li>
+      <li>POSN Biology 2nd Camp (2022)</li>
 
       {/* <li>Support team IT 34thSyringe Games </li>
       <li>ผู้ดูแล website AMSci</li> */}
