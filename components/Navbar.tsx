@@ -61,7 +61,7 @@ const Navbar: React.FC = () => {
       </div>
       {isOpen && (
         <div
-          className="left-0 right-0 rounded-lg flex flex-col items-center shadow-md bg-white fixed md:hidden my-12 mx-5"
+          className="transition ease-in-out dealay-150 left-0 right-0 rounded-lg flex flex-col items-center shadow-md bg-white fixed md:hidden my-12 mx-5"
         >
           {navLink.map((item, index) => (
             <div className="hover:font-bold py-3">
