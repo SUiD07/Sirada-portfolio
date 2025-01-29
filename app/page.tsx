@@ -18,7 +18,7 @@ export default function Home() {
           <Work />
         </section>
         <section id="lang">
-          <Lang/>
+          <Lang />
         </section>
         <section id="experience">
           <Experience />

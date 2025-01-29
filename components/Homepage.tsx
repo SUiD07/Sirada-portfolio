@@ -1,8 +1,16 @@
+'use client'
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
+
 export default function Homepage() {
+  useEffect(()=>{
+    AOS.init({})
+  },[])
   return (
     <>
       {/* <div className="bg-slate-400"> */}
-        <div className="inline-block text-9xl my-5 max-md:text-7xl mt-20">
+        <div data-aos="fade-down" className="inline-block text-9xl my-5 max-md:text-7xl mt-20">
           Sirada <br />
           Uthaiwat
         </div>

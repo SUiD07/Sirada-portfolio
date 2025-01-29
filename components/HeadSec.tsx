@@ -1,5 +1,5 @@
 "use client";
-import {motion} from 'framer-motion';
+// import {motion} from 'framer-motion';
 interface HeadSecProps {
   header: string;
 }
@@ -19,7 +19,7 @@ export default function HeadSec({ header }: HeadSecProps) {
           }
         }
       }} */}
-      <div
+      <div data-aos="zoom-in"
       className="text-center">
         <div className="max-md:text-2xl my-5 text-4xl bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 inline-block text-transparent bg-clip-text font-bold">
           {header}
